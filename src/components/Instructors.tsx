@@ -42,8 +42,8 @@ function Instructors() {
           Meet My Clients
         </h2>
         <p className="text-base md:text-lg text-white text-center mb-4">
-          Discover the diverse clients I've had the privilege to work with as a
-          developer
+          Discover the diverse clients I Have had the privilege to work with as
+          a developer
         </p>
         <div className="flex flex-row items-center justify-center mb-10 w-full">
           <AnimatedTooltip items={instructors} />
