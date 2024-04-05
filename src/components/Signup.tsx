@@ -24,7 +24,7 @@ export function SignupComp() {
           Contact Me
         </p>
       </div>
-      <div className="mt-5 max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black border">
+      <div className="mt-5 max-w-md w-full mx-auto rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black border">
         <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200 text-center">
           Welcome to Saurav DevFolio
         </h2>
