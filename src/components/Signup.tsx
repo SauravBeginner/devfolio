@@ -18,7 +18,7 @@ export function SignupComp() {
     <div className="relative py-10 ">
       <div className="text-center my-10">
         <h2 className="mb-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
-          Contact
+          Get in Touch
         </h2>
         <p className="text-base text-[#9e77c6] font-semibold tracking-wide uppercase">
           Contact Me
@@ -26,10 +26,10 @@ export function SignupComp() {
       </div>
       <div className="mt-5 max-w-md w-full mx-auto rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black border z-30">
         <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200 text-center">
-          Welcome to Saurav DevFolio
+          Have a question or want to work together?
         </h2>
         <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300 text-center">
-          Contact Me
+          Let's collaborate and discuss your project 🚀{" "}
         </p>
 
         <form className="my-8" onSubmit={handleSubmit}>

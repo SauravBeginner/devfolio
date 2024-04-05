@@ -35,19 +35,29 @@ import {
 } from "react-icons/si";
 
 export const buttonsData = [
-  { id: 1, label: "GitHub", icon: FaGithub, url: "https://www.github.com" },
+  {
+    id: 1,
+    label: "GitHub",
+    icon: FaGithub,
+    url: "https://github.com/SauravBeginner",
+  },
   {
     id: 2,
     label: "LinkedIn",
     icon: FaLinkedin,
-    url: "https://www.linkedin.com",
+    url: "https://www.linkedin.com/in/saurav-kundu-0b06211ba/",
   },
-  { id: 3, label: "Twitter", icon: FaTwitter, url: "https://www.twitter.com" },
+  {
+    id: 3,
+    label: "Twitter",
+    icon: FaTwitter,
+    url: "https://twitter.com/KunduSaurav96",
+  },
   {
     id: 4,
     label: "Resume",
     icon: IoDocumentTextSharp,
-    url: "https://www.example.com/resume.pdf",
+    url: "https://drive.google.com/file/d/1LwzcRFO4Zef9X86U3a6Ej6WI9BIVblyw/view",
   },
 ];
 
