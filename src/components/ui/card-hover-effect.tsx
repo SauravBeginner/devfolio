@@ -1,16 +1,18 @@
 import { cn } from "@/utils/cn";
 import { AnimatePresence, motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { IconType } from "react-icons/lib";
 
 export const HoverEffect = ({
   items,
   className,
 }: {
   items: {
-    title: string;
-    description: string;
-    link: string;
+    label: string;
+    icon: IconType;
+    key: number;
   }[];
   className?: string;
 }) => {
@@ -19,14 +21,14 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
+        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-5  py-10 cursor-pointer",
         className
       )}
     >
       {items.map((item, idx) => (
-        <Link
-          href={item?.link}
-          key={item?.link}
+        <span
+          // href={item?.link}
+          key={item?.key}
           className="relative group  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -48,11 +50,13 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card>
-            <CardTitle>{item.title}</CardTitle>
-            <CardDescription>{item.description}</CardDescription>
+          <Card className="flex items-center justify-center flex-col ">
+            <item.icon size={30} className="mx-auto" />
+            {/* <Image height={100} width={100} src={item?.image} alt={"item"} /> */}
+            <CardTitle>{item.label}</CardTitle>
+            {/* <CardDescription>{item.description}</CardDescription> */}
           </Card>
-        </Link>
+        </span>
       ))}
     </div>
   );
