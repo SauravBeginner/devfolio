@@ -35,7 +35,7 @@ export function MyProjects() {
                     <Image
                       width={1000}
                       height={1000}
-                      src="https://saurav-main-portfolio.netlify.app/images/insta.png"
+                      src={item.src}
                       alt="image"
                       className="object-cover rounded-sm"
                     />

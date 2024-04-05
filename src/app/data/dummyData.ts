@@ -65,7 +65,7 @@ export const buttonsData = [
     id: 5,
     label: "Email",
     icon: TfiEmail,
-    url: "https://drive.google.com/file/d/1Wha7q3drOyVfYufRTM7cCIuetimf6eld/view",
+    url: "mailto:sauravnaukri96@gmail.com",
   },
 ];
 
@@ -157,15 +157,17 @@ export const projectData = [
     description: "Customizable Tailwind CSS and Framer Motion Components.",
     backgroundColor:
       "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
-    link: "https://www.google.com", // Update with the actual project link
+    src: "https://saurav-main-portfolio.netlify.app/images/20221225_125210_0000.png",
+    link: "https://shopdunia.netlify.app", // Update with the actual project link
   },
   {
     id: 2,
-    title: "PayTm Wallet",
+    title: "Hotel Booking",
     description: "Customizable Tailwind CSS and Framer Motion Components.",
     backgroundColor:
       "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
-    link: "https://www.google.com", // Update with the actual project link
+    src: "https://static.vecteezy.com/system/resources/thumbnails/000/560/210/small_2x/0Z_46_1.jpg",
+    link: "https://www.wyndhamhotels.com", // Update with the actual project link
   },
   {
     id: 3,
@@ -173,7 +175,8 @@ export const projectData = [
     description: "Customizable Tailwind CSS and Framer Motion Components.",
     backgroundColor:
       "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
-    link: "https://www.google.com", // Update with the actual project link
+    src: "https://saurav-main-portfolio.netlify.app/images/insta.png",
+    link: "https://medium.com", // Update with the actual project link
   },
   // Add more project objects as needed
 ];

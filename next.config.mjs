@@ -8,6 +8,7 @@ const nextConfig = {
       "upload.wikimedia.org",
       "raw.githubusercontent.com",
       "saurav-main-portfolio.netlify.app",
+      "static.vecteezy.com",
     ],
   },
 };
