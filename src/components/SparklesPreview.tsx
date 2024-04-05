@@ -5,6 +5,7 @@ import { Skills } from "./Skills";
 import { WorkExperience as TracingBeamDemo } from "@/components/WorkExperience";
 import HeroSection from "./HeroSection";
 import { MyProjects } from "./MyProjects";
+import { SignupComp } from "./Signup";
 
 export function SparklesPreview() {
   return (
@@ -27,6 +28,7 @@ export function SparklesPreview() {
       <TracingBeamDemo />
       <Skills />
       <MyProjects />
+      <SignupComp />
     </div>
   );
 }
