@@ -149,7 +149,7 @@ export const projectData = [
     description: "Customizable Tailwind CSS and Framer Motion Components.",
     backgroundColor:
       "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
-    link: "https://google.com", // Update with the actual project link
+    link: "https://www.google.com", // Update with the actual project link
   },
   {
     id: 2,
@@ -157,7 +157,7 @@ export const projectData = [
     description: "Customizable Tailwind CSS and Framer Motion Components.",
     backgroundColor:
       "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
-    link: "https://google.com", // Update with the actual project link
+    link: "https://www.google.com", // Update with the actual project link
   },
   {
     id: 3,
@@ -165,7 +165,7 @@ export const projectData = [
     description: "Customizable Tailwind CSS and Framer Motion Components.",
     backgroundColor:
       "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
-    link: "https://google.com", // Update with the actual project link
+    link: "https://www.google.com", // Update with the actual project link
   },
   // Add more project objects as needed
 ];
