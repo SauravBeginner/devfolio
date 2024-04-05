@@ -30,7 +30,7 @@ function HeroSection() {
           <TextGenerateEffectDemo />
           <div className="mt-6 flex items-center flex-wrap justify-center">
             {buttonsData.map((item) => (
-              <span className="mr-2" key={item.id}>
+              <span className="mr-2 my-2" key={item.id}>
                 <Button
                   onClick={() => handleRoute(item.url)}
                   borderRadius="1.75rem"

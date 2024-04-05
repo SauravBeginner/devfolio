@@ -13,18 +13,10 @@ export function Skills() {
     <div className="p-12 my-10 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center">
-          <h2
-            className="mb-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl
-          "
-          >
+          <h2 className="mb-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
             Skills
           </h2>
-          <p
-            className="
-          
-          text-base text-[#9e77c6] font-semibold tracking-wide uppercase
-          "
-          >
+          <p className="text-base text-[#9e77c6] font-semibold tracking-wide uppercase">
             Tech Stack
           </p>
         </div>
@@ -37,7 +29,7 @@ export function Skills() {
             }))}
           />
         </div>{" "}
-        <div className="">
+        <div className="text-center">
           <p className="text-base text-[#9e77c6] font-semibold tracking-wide uppercase">
             Tools
           </p>
