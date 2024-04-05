@@ -14,7 +14,7 @@ export function MyProjects() {
           My Projects
         </p>
       </div>
-      <div className="flex">
+      <div className="flex-col flex md:flex-row">
         {projectData.map((item) => (
           <div
             className="h-[30rem] w-full flex items-center justify-center"
