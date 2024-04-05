@@ -4,7 +4,7 @@ import Modal from "react-modal";
 
 Modal.setAppElement("#__next"); // Set the app element to make the modal accessible
 
-const MyModal = ({ isOpen, closeModal, content }) => {
+const MyModal = ({ isOpen, closeModal, content }: any) => {
   return (
     <Modal
       isOpen={isOpen}
