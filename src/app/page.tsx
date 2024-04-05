@@ -19,8 +19,8 @@ function Home() {
 
       <SparklesPreview />
       {/* <Projects /> */}
-      <Instructors />
-      <TestimonialCards />
+      {/* <Instructors />
+      <TestimonialCards /> */}
     </main>
   );
 }
