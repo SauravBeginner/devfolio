@@ -152,7 +152,7 @@ export const TypewriterEffectSmooth = ({
         transition={{
           duration: 3,
           ease: "linear",
-          delay: 5,
+          delay: 4,
         }}
       >
         <div
