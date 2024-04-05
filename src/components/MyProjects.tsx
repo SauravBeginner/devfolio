@@ -14,10 +14,10 @@ export function MyProjects() {
         </p>
       </div>
       <div className="flex">
-        {Array.from({ length: 3 }).map((item, index) => (
+        {Array.from({ length: 3 }).map((_, i) => (
           <div
             className="h-[30rem] w-full flex items-center justify-center"
-            key={index}
+            key={i}
           >
             <PinContainer title="www.goole.com" href="https://google.com">
               <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
