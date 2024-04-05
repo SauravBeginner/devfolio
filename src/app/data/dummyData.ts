@@ -131,3 +131,31 @@ export const tools = [
     url: "https://www.docker.com/",
   },
 ];
+
+export const projectData = [
+  {
+    id: 1,
+    title: "E-Commerce",
+    description: "Customizable Tailwind CSS and Framer Motion Components.",
+    backgroundColor:
+      "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
+    link: "https://google.com", // Update with the actual project link
+  },
+  {
+    id: 2,
+    title: "PayTm Wallet",
+    description: "Customizable Tailwind CSS and Framer Motion Components.",
+    backgroundColor:
+      "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
+    link: "https://google.com", // Update with the actual project link
+  },
+  {
+    id: 3,
+    title: "Blog Website",
+    description: "Customizable Tailwind CSS and Framer Motion Components.",
+    backgroundColor:
+      "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
+    link: "https://google.com", // Update with the actual project link
+  },
+  // Add more project objects as needed
+];
