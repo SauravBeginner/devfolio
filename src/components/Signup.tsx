@@ -15,7 +15,7 @@ export function SignupComp() {
     console.log("Form submitted");
   };
   return (
-    <div className="relative py-10 ">
+    <div className="relative py-10 " id="contact">
       <div className="text-center my-10">
         <h2 className="mb-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
           Get in Touch

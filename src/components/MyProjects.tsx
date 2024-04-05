@@ -7,7 +7,7 @@ import Image from "next/image";
 export function MyProjects() {
   return (
     <>
-      <div className="text-center">
+      <div className="text-center" id="project">
         <h2 className="mb-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
           Projects
         </h2>
@@ -22,7 +22,6 @@ export function MyProjects() {
             key={item.id}
           >
             <PinContainer title={item.link} href={item.link}>
-              {" "}
               <a href={item.link} target="_blank" rel="noreferrer">
                 <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
                   <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">

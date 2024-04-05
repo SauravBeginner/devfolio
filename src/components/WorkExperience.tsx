@@ -7,7 +7,7 @@ import { TracingBeam } from "./ui/tracing-beam";
 
 export function WorkExperience() {
   return (
-    <>
+    <div className="" id="about">
       <div className="text-center mb-10">
         <h2
           className="mb-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl
@@ -56,7 +56,7 @@ export function WorkExperience() {
           ))}
         </div>
       </TracingBeam>
-    </>
+    </div>
   );
 }
 

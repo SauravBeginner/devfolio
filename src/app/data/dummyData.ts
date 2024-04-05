@@ -15,7 +15,7 @@ import {
   FaCloudflare,
   FaDatabase,
 } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
+import { IoIosMail, IoLogoJavascript } from "react-icons/io";
 import { DiPostgresql } from "react-icons/di";
 import {
   SiJavascript,
@@ -25,6 +25,8 @@ import {
 } from "react-icons/si";
 
 import { TbBrandNextjs } from "react-icons/tb";
+import { TfiEmail } from "react-icons/tfi";
+
 import {
   SiExpress,
   SiMongodb,
@@ -57,6 +59,12 @@ export const buttonsData = [
     id: 4,
     label: "Resume",
     icon: IoDocumentTextSharp,
+    url: "https://drive.google.com/file/d/1Wha7q3drOyVfYufRTM7cCIuetimf6eld/view",
+  },
+  {
+    id: 5,
+    label: "Email",
+    icon: TfiEmail,
     url: "https://drive.google.com/file/d/1Wha7q3drOyVfYufRTM7cCIuetimf6eld/view",
   },
 ];
