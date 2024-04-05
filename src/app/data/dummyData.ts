@@ -180,3 +180,21 @@ export const projectData = [
   },
   // Add more project objects as needed
 ];
+export const words = [
+  {
+    text: "Build",
+  },
+  {
+    text: "awesome",
+  },
+  {
+    text: "apps",
+  },
+  {
+    text: "with",
+  },
+  {
+    text: "Your Web Developer",
+    className: "text-blue-500 dark:text-[#9c4ff0]",
+  },
+];

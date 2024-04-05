@@ -7,8 +7,9 @@ import { TextGenerateEffectDemo } from "./GeneratedText";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoDocumentTextSharp } from "react-icons/io5";
-import { buttonsData } from "@/app/data/dummyData";
+import { buttonsData, words } from "@/app/data/dummyData";
 import Image from "next/image";
+import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 
 function HeroSection() {
   const handleRoute = (url: any) => {
@@ -28,6 +29,8 @@ function HeroSection() {
           developer.
           </p> */}
           <TextGenerateEffectDemo />
+          <TypewriterEffectSmooth className="inline-flex" words={words} />
+
           <div className="mt-6 flex items-center flex-wrap justify-center">
             {buttonsData.map((item) => (
               <span className="mr-2 my-2" key={item.id}>
