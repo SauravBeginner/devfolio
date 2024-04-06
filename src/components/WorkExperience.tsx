@@ -28,7 +28,7 @@ export function WorkExperience() {
         <div className="max-w-2xl mx-auto antialiased pt-4 relative">
           {dummyContent.map((item) => (
             <div key={`content-${item.id}`} className="mb-10">
-              <h2 className="bg-black text-white rounded-full text-lg w-fit  py-1 mb-4">
+              <h2 className="bg-black text-white rounded-full text-lg w-fit  py-1 mb-2">
                 {item.badge}
               </h2>
               <p className={twMerge("text-white", "text-lg mb-4 px-4")}>
@@ -71,16 +71,16 @@ const dummyContent = [
           formulate corrective actions and recommendations.
         </li>
         <li>
+          Developing responsive and user-friendly web applications using React,
+          CSS, and HTML.
+        </li>
+        <li>
           Provided operational assistance and developed software workarounds or
           resolutions.
         </li>
         <li>
           Solved internal application issues on Salesforce within TAT
           (Turnaround Time).
-        </li>
-        <li>
-          Handled User Management on Zoho Desk & CRM, JIRA, and Salesforce
-          platforms.
         </li>
         <li>
           Coordinated with multiple teams for prompt issue resolution via
@@ -90,7 +90,11 @@ const dummyContent = [
           Possessed knowledge of checking which API is not responding properly
           and how to debug it.
         </li>
-        <li>Built internal dashboards using MERN Stack technology.</li>
+        <li>
+          Collaborating with the design team to ensure the implementation of
+          consistent UI/UX design.
+        </li>
+        <li>Writing clean and maintainable code using Git and Github.</li>
       </ul>
     ),
     badge: "Oracle India Pvt Ltd",
@@ -105,30 +109,30 @@ const dummyContent = [
     description: (
       <ul className="list-disc list-inside text-white">
         <li>
-          Investigated issues and defects to determine problem root cause and
-          formulate corrective actions and recommendations.
-        </li>
-        <li>
           Provided operational assistance and developed software workarounds or
           resolutions.
         </li>
         <li>
-          Solved internal application issues on Salesforce within TAT
-          (Turnaround Time).
+          Developing responsive and user-friendly web applications using React,
+          CSS, and HTML.
         </li>
         <li>
-          Handled User Management on Zoho Desk & CRM, JIRA, and Salesforce
-          platforms.
+          Implementing automated testing using Jest and React Testing Library
         </li>
+        <li>Writing clean and maintainable code using Git and Github.</li>
         <li>
           Coordinated with multiple teams for prompt issue resolution via
           channels like SLACK and JIRA.
         </li>
+        <li>Efficiently managed states using Redux Toolkit using reducers.</li>
         <li>
-          Possessed knowledge of checking which API is not responding properly
-          and how to debug it.
+          Tested developed code using Postman and providing solutions which
+          reduced support calls from 27% to 13% in a span of 3 months.
         </li>
-        <li>Built internal dashboards using MERN Stack technology.</li>
+        <li>
+          Engineered REST APIs using Data Structures that are easier to maintain
+          and debug during its lifecycle
+        </li>
       </ul>
     ),
     badge: "Rupeek Fintech Pvt Ltd",
