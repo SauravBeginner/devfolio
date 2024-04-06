@@ -19,7 +19,7 @@ function HeroSection() {
     <div className="h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0 ">
       <Spotlight className="top-40 left-0 md:left-60 md:-top-20" fill="white" />
       <div className="flex items-center">
-        <div className="px-4 py-4 md:px-4 relative z-10 w-full text-center md:text-start">
+        <div className="px-4 py-4 md:px-4 relative z-10 w-full text-center lg:text-start">
           <h1 className="mt-20 md:mt-0 text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
             Saurav DevFolio
           </h1>
@@ -28,7 +28,10 @@ function HeroSection() {
           projects, dive into my code, and witness the journey of a passionate
           developer.
           </p> */}
-          <TextGenerateEffectDemo />
+          <span className="flex justify-center lg:justify-start">
+            <TextGenerateEffectDemo />
+          </span>
+
           <TypewriterEffectSmooth className="inline-flex" words={words} />
 
           <div className="mt-6 flex items-center flex-wrap justify-center">
@@ -59,7 +62,7 @@ function HeroSection() {
           }
           alt={"item.name"}
           //     className="object-cover !m-0 !p-0 object-top rounded-full h-14 w-14 border-2 group-hover:scale-105 group-hover:z-30 border-white  relative transition duration-500"
-          className="object-cover max-w-xl hidden md:block"
+          className="object-cover max-w-xl hidden lg:block"
         />
       </div>
     </div>
