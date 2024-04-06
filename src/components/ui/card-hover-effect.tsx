@@ -21,7 +21,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-5  py-10 cursor-pointer",
+        "grid grid-cols-1 md:grid-cols-3  lg:grid-cols-5  py-10 cursor-pointer",
         className
       )}
     >
@@ -50,7 +50,7 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card className="flex items-center justify-center flex-col ">
+          <Card className="flex items-center justify-center text-center flex-col ">
             <item.icon size={30} className="mx-auto" />
             {/* <Image height={100} width={100} src={item?.image} alt={"item"} /> */}
             <CardTitle>{item.label}</CardTitle>
