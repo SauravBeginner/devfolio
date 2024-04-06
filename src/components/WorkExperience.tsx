@@ -31,10 +31,10 @@ export function WorkExperience() {
               <h2 className="bg-black text-white rounded-full text-lg w-fit  py-1 mb-2">
                 {item.badge}
               </h2>
-              <p className={twMerge("text-white", "text-lg mb-4 px-4")}>
+              <p className={twMerge("text-white", "text-lg mb-2 px-4")}>
                 {item.title}
               </p>
-              <p className={twMerge("text-white", "text-sm mb-4 px-4")}>
+              <p className={twMerge("text-white", "text-sm mb-2 px-4")}>
                 {item.date}
               </p>
               <p className={twMerge("text-white", "text-sm mb-4 px-4")}>
@@ -79,8 +79,8 @@ const dummyContent = [
           resolutions.
         </li>
         <li>
-          Solved internal application issues on Salesforce within TAT
-          (Turnaround Time).
+          Designing and implementing RESTful APIs with a focus on efficient data
+          handling and scalability.
         </li>
         <li>
           Coordinated with multiple teams for prompt issue resolution via
@@ -113,8 +113,8 @@ const dummyContent = [
           resolutions.
         </li>
         <li>
-          Developing responsive and user-friendly web applications using React,
-          CSS, and HTML.
+          Building responsive and intuitive web applications using the MERN
+          stack (MongoDB, Express.js, React, Node.js).
         </li>
         <li>
           Implementing automated testing using Jest and React Testing Library
