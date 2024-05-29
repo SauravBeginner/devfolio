@@ -176,7 +176,7 @@ export const projectData = [
     backgroundColor:
       "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
     src: "https://saurav-main-portfolio.netlify.app/images/insta.png",
-    link: "https://medium.com", // Update with the actual project link
+    link: "https://medium.tech10x.online", // Update with the actual project link
   },
   // Add more project objects as needed
 ];
