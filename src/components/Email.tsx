@@ -10,7 +10,7 @@ export const Email = () => {
   const messageRef = useRef<HTMLTextAreaElement>(null);
 
   const serviceId = "service_jrbss9k";
-  const templateId = "template_qofx65f";
+  const templateId = "template_xqq4zyj";
   const publicKey = "owJnnBZkaCUAA8XxL";
 
   const sendEmail = (e: any) => {
