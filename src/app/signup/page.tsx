@@ -1,4 +1,4 @@
-import { SignupComp } from "@/components/Signup";
+import { SignupComp } from "@/components/ContactForm";
 import React from "react";
 
 const Signup = () => {

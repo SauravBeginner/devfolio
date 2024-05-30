@@ -8,8 +8,10 @@ import {
   IconBrandGoogle,
   IconBrandOnlyfans,
 } from "@tabler/icons-react";
+import { TextArea } from "./ui/textArea";
+import { Email } from "./Email";
 
-export function SignupComp() {
+export function ContactForm() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Form submitted");
@@ -32,7 +34,7 @@ export function SignupComp() {
           Let's collaborate and discuss your project 🚀
         </p>
 
-        <form className="my-8" onSubmit={handleSubmit}>
+        {/* <form className="my-8" onSubmit={handleSubmit}>
           <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
             <LabelInputContainer>
               <Label htmlFor="firstname">First name</Label>
@@ -47,6 +49,10 @@ export function SignupComp() {
             <Label htmlFor="email">Email Address</Label>
             <Input id="email" placeholder="projectmayhem@fc.com" type="email" />
           </LabelInputContainer>
+          <LabelInputContainer className="mb-4">
+            <Label htmlFor="email">Message</Label>
+            <TextArea id="message" placeholder="Enter text..." />
+          </LabelInputContainer>
 
           <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[1px] w-full" />
           <button
@@ -56,7 +62,8 @@ export function SignupComp() {
             Submit
             <BottomGradient />
           </button>
-        </form>
+        </form> */}
+        <Email />
       </div>
     </div>
   );
