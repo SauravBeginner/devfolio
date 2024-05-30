@@ -162,12 +162,12 @@ export const projectData = [
   },
   {
     id: 2,
-    title: "Hotel Booking",
+    title: "Landing Page",
     description: "Customizable Tailwind CSS and Framer Motion Components.",
     backgroundColor:
       "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
-    src: "https://static.vecteezy.com/system/resources/thumbnails/000/560/210/small_2x/0Z_46_1.jpg",
-    link: "https://www.wyndhamhotels.com", // Update with the actual project link
+    src: "https://static.semrush.com/blog/uploads/media/ed/9b/ed9b42a338de806621bdaf70293c2e7e/image.png",
+    link: "landing.tech10x.online", // Update with the actual project link
   },
   {
     id: 3,
