@@ -18,7 +18,7 @@ export const Email = () => {
     const templateParams = {
       from_name: nameRef.current?.value,
       from_email: emailRef.current?.value,
-      // to_name: "Saurav",
+      to_name: "Saurav",
       message: messageRef.current?.value,
     };
     console.log(templateParams);
@@ -26,6 +26,11 @@ export const Email = () => {
     emailjs.send(serviceId, templateId, templateParams, publicKey).then(
       (response) => {
         console.log("SUCCESS!", response);
+        alert("Form SUbmitted SuccessFully!");
+
+        nameRef.current && (nameRef.current.value = ""); // Set value to empty string or whatever value you need
+        emailRef.current && (emailRef.current.value = "");
+        messageRef.current && (messageRef.current.value = "");
       },
       (error) => {
         console.log("FAILED...", error);
