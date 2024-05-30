@@ -9,6 +9,7 @@ const nextConfig = {
       "raw.githubusercontent.com",
       "saurav-main-portfolio.netlify.app",
       "static.vecteezy.com",
+      "static.semrush.com",
     ],
   },
 };

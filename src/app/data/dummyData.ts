@@ -166,7 +166,7 @@ export const projectData = [
     description: "Customizable Tailwind CSS and Framer Motion Components.",
     backgroundColor:
       "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
-    src: "https://t4.ftcdn.net/jpg/02/47/67/13/360_F_247671337_hq1PMPFztZ5hZsMbV9nWNyxM7BYnlD6I.jpg",
+    src: "https://static.semrush.com/blog/uploads/media/ed/9b/ed9b42a338de806621bdaf70293c2e7e/image.png",
     link: "https://landing.tech10x.online", // Update with the actual project link
   },
   {
