@@ -157,7 +157,7 @@ export const projectData = [
     description: "Customizable Tailwind CSS and Framer Motion Components.",
     backgroundColor:
       "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
-    src: "https://saurav-main-portfolio.netlify.app/images/20221225_125210_0000.png",
+    src: "https://pub-96c5670691c8435283fb5dea0d94a7e8.r2.dev/shopDunia.webp",
     link: "https://shopdunia.netlify.app", // Update with the actual project link
   },
   {
@@ -166,8 +166,8 @@ export const projectData = [
     description: "Customizable Tailwind CSS and Framer Motion Components.",
     backgroundColor:
       "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
-    src: "https://static.semrush.com/blog/uploads/media/ed/9b/ed9b42a338de806621bdaf70293c2e7e/image.png",
-    link: "https://landing.tech10x.online", // Update with the actual project link
+    src: "https://pub-96c5670691c8435283fb5dea0d94a7e8.r2.dev/tech10x.png",
+    link: "https://project.tech10x.online", // Update with the actual project link
   },
   {
     id: 3,
@@ -175,7 +175,7 @@ export const projectData = [
     description: "Customizable Tailwind CSS and Framer Motion Components.",
     backgroundColor:
       "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
-    src: "https://saurav-main-portfolio.netlify.app/images/insta.png",
+    src: "https://pub-96c5670691c8435283fb5dea0d94a7e8.r2.dev/blogs.png",
     link: "https://medium.tech10x.online", // Update with the actual project link
   },
   // Add more project objects as needed

@@ -31,7 +31,7 @@ export function MyProjects() {
                     <span className="text-slate-500 ">{item.description}</span>
                   </div>
                   {/* <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" /> */}
-                  <div className="flex flex-1 w-full rounded-lg mt-4 ">
+                  <div className="flex flex-1 w-full rounded-lg mt-4 h-24">
                     <Image
                       width={1000}
                       height={1000}
