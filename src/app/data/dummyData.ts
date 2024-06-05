@@ -182,19 +182,19 @@ export const projectData = [
 ];
 export const words = [
   {
-    text: "Build",
+    text: "Hi,",
   },
   {
-    text: "awesome",
+    text: "I",
   },
   {
-    text: "apps",
+    text: "am",
   },
   {
-    text: "with",
+    text: "a",
   },
   {
-    text: "Your Web Developer",
+    text: "Full Stack Developer",
     className: "text-blue-500 dark:text-[#9c4ff0]",
   },
 ];

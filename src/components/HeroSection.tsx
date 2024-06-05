@@ -21,7 +21,7 @@ function HeroSection() {
       <div className="flex items-center">
         <div className="px-4 py-4 md:px-4 relative z-10 w-full text-center lg:text-start">
           <h1 className="mt-20 md:mt-0 text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-            Saurav DevFolio
+            Saurav Kundu
           </h1>
           {/* <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
           Welcome to my portfolio, where innovation meets coding. Explore my
