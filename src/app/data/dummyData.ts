@@ -154,7 +154,8 @@ export const projectData = [
   {
     id: 1,
     title: "E-Commerce",
-    description: "Customizable Tailwind CSS and Framer Motion Components.",
+    description:
+      "Built with React, Tailwind CSS, MongoDb, Mongoose, Node, and Express.",
     backgroundColor:
       "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
     src: "https://pub-96c5670691c8435283fb5dea0d94a7e8.r2.dev/shopDunia.webp",
@@ -163,7 +164,8 @@ export const projectData = [
   {
     id: 2,
     title: "Landing Page",
-    description: "Customizable Tailwind CSS and Framer Motion Components.",
+    description:
+      "Built with React, Tailwind CSS, Postgres,Prisma, Node, and Express.",
     backgroundColor:
       "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
     src: "https://pub-96c5670691c8435283fb5dea0d94a7e8.r2.dev/tech10x.png",
@@ -172,7 +174,8 @@ export const projectData = [
   {
     id: 3,
     title: "Blog Website",
-    description: "Customizable Tailwind CSS and Framer Motion Components.",
+    description:
+      "Built with React, Tailwind CSS, Postgres, Prisma, Hono and Cloudflare.",
     backgroundColor:
       "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
     src: "https://pub-96c5670691c8435283fb5dea0d94a7e8.r2.dev/blogs.png",
