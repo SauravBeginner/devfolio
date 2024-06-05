@@ -154,8 +154,7 @@ export const projectData = [
   {
     id: 1,
     title: "E-Commerce",
-    description:
-      "Built with React, Tailwind CSS, MongoDb, Mongoose, Node, and Express.",
+    description: "Built with React, Tailwind CSS, MongoDb, Node, and Express.",
     backgroundColor:
       "bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500",
     src: "https://pub-96c5670691c8435283fb5dea0d94a7e8.r2.dev/shopDunia.webp",
