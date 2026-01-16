@@ -59,7 +59,7 @@ export const buttonsData = [
     id: 4,
     label: "Resume",
     icon: IoDocumentTextSharp,
-    url: "https://drive.google.com/file/d/1Wha7q3drOyVfYufRTM7cCIuetimf6eld/view",
+    url: "https://drive.google.com/file/d/19fcfXaNYv69cTxCCU13M2OuG26p5dNBN/view?usp=sharing",
   },
   {
     id: 5,
